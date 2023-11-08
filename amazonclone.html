@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .navbar{
+        height:60px;
+        background-color: black;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+    .nav-logo{
+        height:50px;
+        width:100px;
+      background-image: url(amazon_logo.png);
+        background-size: cover; 
+        background-color: transparent;
+
+    }
+    .border{
+          border: 1.5px solid transparent; 
+          
+    }
+    .border:hover{
+        border: 1.5px solid white;
+        background-color:transparent;
+    }
+    .add1{
+        font-size: 0.8rem;
+        margin-left: 15px;
+        
+    }
+    .add2{
+        font-size: 1rem;
+        margin-left: 3px;
+        
+    }
+    .add-icon{
+        display: flex;  
+         align-items: center; 
+         
+    }
+    input{
+        width: 400px; 
+        height:5vh; 
+        border: none;
+        
+    }
+    .nav-search{
+        display: flex; 
+        background-color:darkgoldenrod;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        
+        border-bottom-left-radius: 4px;
+        
+        
+
+    }
+    .search-icon{
+        width:40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:black;
+    
+    
+
+    }
+    .search-select{
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        background-color:lightgray;
+        border: none;
+    }
+    span{
+        font-size: 0.8rem;
+    }
+    .nav-con2{
+        display: flex;
+    
+    }
+    .nav-con2 i{
+        font-size: 1.5rem;
+    }
+    .navbar2{
+        height:50px;
+        background-color: rgba(0, 0, 0, 0.826);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .navbar2 ul{
+        display: flex;
+        list-style: none;
+        width: 80%;
+        /* margin-left: 20px; */
+    }
+    .navbar2 ul li{
+        margin-left: 25px;
+    }
+    .menu{
+        color: white;
+        display: flex;
+         align-items: center;
+        font-size: 1rem;
+
+    }
+    .sec{
+        color:white;
+    }
+    .box{
+        width:23%;
+        height: 400px;
+        background-color:white;
+        /* display: flex; */
+        margin-top: 5px;
+        border: 2px solid;
+
+    }
+.boxcontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgbox{
+    background-image: url(box1_image.jpg);
+    background-size:cover;
+    height: 300px;
+    margin-top: 3px;
+    
+}
+.imgbox2{
+    background-image: url(box2_image.jpg);
+    background-size:cover;
+    height: 300px;
+    margin-top: 3px;
+}
+.imgbox3{
+    background-image: url(box4_image.jpg);
+    background-size:cover;
+    height: 300px;
+    margin-top: 3px;
+}
+.imgbox4{  background-image: url(box7_image.jpg);
+    background-size:cover;
+    height: 300px;
+    margin-top: 3px;
+
+
+}
+.contentbox{
+    margin-left: 10px;
+    margin-right:  10 px;
+    
+
+}
+.sn{
+    margin-top: 1rem;
+    color: blue;
+}
+ /* img{
+    width: 90%;
+    height:350px;
+    margin-left: 16px;
+    padding:10px 0 10px;
+
+}  */
+.section1{
+    background-image: url(hero_image.jpg);
+    height:500px;
+    background-size: cover;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+.amz{
+    background-color: white;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    height:5vh;
+    /* margin-left: 120px; */
+    margin-bottom: 30px;
+    
+}
+</style>
+
+<body>
+    <div class="navbar">
+        <div class="nav-logo border"></div>
+        <div class="nav-address border">
+           <p class="add1">Deliver to</p>
+           <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add2">India</p>
+           </div>
+
+        </div>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+                <!-- <option>hie</option> -->
+            </select>
+            <input type="text" placeholder="search amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-content border">
+            <p><span>Hello,sign in</span></p>
+            <p>Accounts & List</p>
+        </div>
+        <div class="nav-con2 border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            cart
+        </div>
+    </div>
+    <div class="navbar2">
+        <div class="menu">
+    
+         <i class="fa-solid fa-bars"></i>
+         <p>All</p>
+          </div>
+          <ul>
+            <LI>Today's Deal</LI>
+            <li>Customer Service</li>
+            <li>Registry</li>
+            <li>Gift Card</li>
+            <li>sell</li>
+          </UL>
+          <div class="sec">
+            <p>shop Detail in Electronic</p>
+          </div>
+       
+    </div>
+     
+     <div class="section1">
+        <div class="amz">
+        <p>you are on amazon.com you can also shop on Amazon India For millions of product with fast delivery</p>
+        </div>
+     </div>
+     <div class="section2">
+        <div class="boxcontent">
+            <div class="box1 box">
+                <div class="contentbox">
+                <h2>Interior</h2>
+                <div class="imgbox"></div>
+                <p class="sn">Shop now</p>
+                </div>
+                
+            </div>
+            <div class="box2 box">
+                <div class="contentbox">
+                    <h2>Health & Care</h2>
+                    <div class="imgbox2"></div>
+                    <p class="sn">Shop now</p>
+                    </div>
+                    
+            </div>
+            <div class="box3 box">
+                <div class="contentbox">
+                    <h2>Gadget</h2>
+                    <div class="imgbox3"></div>
+                    <p class="sn">Shop now</p>
+                    </div>
+                    
+            </div>
+            <div class="box4 box">
+                <div class="contentbox">
+                    <h2>Travel</h2>
+                    <div class="imgbox4"></div>
+                    <p class="sn">Shop now</p>
+                    </div>
+                    
+            </div>
+        </div>
+       
+     </div>
+</body>
+</html>

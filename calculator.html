@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .wrapper{
+        width: 400px;
+        height: 450px;
+        /* background-color: blue; */
+        transform: translate(70vh,20vh);
+        border-radius: 29px; 
+         border: 7px solid black; 
+        background-color:black;
+    }
+    
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .new{
+        float: left;
+    }
+    .row{
+        width: 400px;
+        height:100px;
+        background-color: black;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .col{
+        height: 350px;
+        width: 400px;
+        /* background-color: rgb(174, 174, 28); */
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .row1{
+        width: 400px;
+        height:87px;
+        /* background-color: blue; */
+        border-radius:10px;
+    }
+    .col1{
+        width:100px;
+        height:87px;
+        background-color: blue;
+        border-radius:5px;
+        
+        
+    }
+    .col1 {
+         font-size: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition-timing-function: ease-in-out;
+         animation-iteration-count: infinite;
+         
+
+    }
+    .row{
+        font-size: 40px;
+         display: flex;
+        align-items: center; 
+         justify-content:flex-end;
+         color:white;
+    }
+    .nw{
+        background-color: black;
+        color: white;
+    }
+    .col1:hover{
+             transform: scaley(2);
+    }
+ 
+
+</style>
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <p>0<span>345</span></p>
+        </div>
+        <div class="col ">
+            <div class="row1 ">
+                <div class="col1 fl">
+                     <p>7</p>
+                </div>
+                <div class="col1 new">
+                    <p>8</p>
+                </div>
+                <div class="col1 new">
+                    <p>9</p>
+                </div>
+                <div class="col1 fr">
+                    <p>/</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col1 fl">
+                    <p>4</p>
+                </div>
+                <div class="col1 new">
+                    <p>5</p>
+                </div>
+                <div class="col1 new">
+                    <p>6</p>
+                </div>
+                <div class="col1 fr">
+                    <p>*</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col1 fl">
+                    <p>1</p>
+                </div>
+                <div class="col1 new">
+                    <p>2</p>
+                </div>
+                <div class="col1 new">
+                    <p>3</p>
+                </div>
+                <div class="col1 fr">
+                    <p>-</p>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col1 fl">
+                    <p>0</p>
+                </div>
+                <div class="col1 new">
+                    <p>.</p>
+                </div>
+                <div class="col1 new">
+                    <p>+</p>
+                </div>
+                <div class="col1 fr nw">
+                    <p>=</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
