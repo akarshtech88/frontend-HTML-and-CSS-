@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px; 
+}
+.fa-laptop-code{
+    position: relative;
+    top:25px;
+    color: blue;
+     font-size: 30px; 
+
+}
+#cnt{
+    padding-left: 38px;
+    font-size: 23px;
+}
+#cnt2{
+    position: relative;
+    right:3px;
+    font-size: 23px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration:none;
+    color: black;
+    
+}
+li{
+    list-style: none;
+     padding: 12px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content{
+    background-image: url(techunitbg.jpeg);
+    min-height:600px;
+    width:97%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    position: relative;
+    left:20px;
+    border-bottom-right-radius: 30px;
+
+}
+#ct{
+   
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    left:900px;
+    top:10px;
+}
+.ct2 li{
+    color: white;
+    line-height: 2px;
+    font-weight: 700px;
+    font-family: sans-serif;
+}
+.data{
+    background-color: blue; 
+    width:350px;
+    
+    position: relative;
+    left:900px;
+    top:30px;
+}
+
+   
+
+.fa-html5{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-left: 5px; 
+}
+.fa-css3{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-left: 5px; 
+}
+.fa-js{
+    font-size: 60px;
+    color:white;
+  
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-left: 10px; 
+}
+.fa-node{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-right: 10px; 
+}
+.fa-npm{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-right: 10px; 
+}
+.tech{
+    position: relative;
+    left:900px;
+    top:35px;
+
+}
+.fa-austral-sign{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+}
+.fa-atom{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+}
+.fa-php{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+}
+.fa-wordpress{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+    margin-left: 10px;
+}
+.fa-layer-group{
+    font-size: 60px;
+    color:white;
+    background-color:rgba(128, 128, 128, 0.579) ;
+}
+.tech2{
+
+    position: relative;
+    left:900px;
+    top:40px;
+    
+    
+}
+.tech3{
+   
+    position: relative;
+    left:900px;
+    top:44px;
+    
+   
+}
+.fa-shopify{
+    font-size: 60px;
+    color:white;
+    margin-left: 10px;
+    background-color:rgba(128, 128, 128, 0.579) ;
+
+}
+.fa-slack{
+    font-size: 60px;
+    color:white;
+    margin-left: 10px;
+    background-color:rgba(128, 128, 128, 0.579) ;
+}
+.wrapper{
+    width: 97%;
+    height: 250px;
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 2px solid black;
+
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right
+}
+.box1{
+    width:63%;
+    height:250px;
+    background-color: azure;
+}
+
