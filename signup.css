@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 1% 2%;
+    background-color:azure;
+    display: flex;
+    justify-content: space-between;
+}
+.content1{
+    display: flex;
+    align-items: center;
+
+}
+.fa-laptop-code{
+    font-size: 25px;
+}
+.fa-house{
+    font-size: 20px;
+    margin-right: 2px;
+}
+.content2{
+    display: flex;
+    align-items: center;
+
+}
+#h3{
+    font-weight: lighter;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.box1{
+    width: 60%;
+    height: 500px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 20px;
+    top:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box2{
+    width: 35%;
+    height: 440px;
+    background-color:azure;
+    /* background-color: blue; */
+    position: absolute;
+    right:30px;
+    top:80px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+
+}
+#lapi{
+ position: relative;
+ bottom: 70px;
+ left: 170px;
+ border-radius: 50%;
+    
+
+}
+#h1{
+
+    color: blue;
+    position: relative;
+    top: 60px;
+    right:200px;
+
+    
+}
+
+#p{
+    position: relative;
+    top: 60px;
+    right: 100px;
+    line-height: 20px;
+    color: black;
+    
+
+
+}
+.content{
+    position: relative;
+    bottom: 15px;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#nm{
+    width:80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+#em{
+    width:80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+#ps{
+    width:80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+#nb{
+    width:80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+#cour{
+
+    width:80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+#course{
+    width: 20px;
+    height:20px;
+}
+button{
+    width:30%;
+    height:35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h4{
+    color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+p{
+    margin-left: 10px;
+}
+
+
+
